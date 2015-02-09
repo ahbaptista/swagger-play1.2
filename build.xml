@@ -77,7 +77,7 @@
             <include name="**/*.java" />
         </scalac>
 
-        <javac srcdir="src" destdir="tmp/classes" target="1.5" debug="true">
+        <javac srcdir="src" destdir="tmp/classes" target="1.7" debug="true">
             <classpath refid="project.classpath" />
         </javac>
     </target>
